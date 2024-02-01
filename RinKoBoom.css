@@ -5,3 +5,23 @@ img {
   display: block;
   margin: auto;
 }
+
+table,
+th,
+td {
+  border: auto solid black;
+}
+
+body {
+  background-image: url('./image/background.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+/* background="./image/background.jpg" style="background-repeat:no-repeat ;
+    max-width:100%;overflow:hidden;
+    background-attachment:fixed;
+    background-size:100%;" */
